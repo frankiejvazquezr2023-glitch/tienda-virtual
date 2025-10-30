@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Catálogo de Productos</h1>
+
+    <!-- 🧾 Formulario para agregar productos -->
+    <section id="formulario-section">
+        <h2>Agregar producto</h2>
+        <form id="form-agregar">
+            <input type="text" id="nombre" placeholder="Nombre del producto" required>
+            <input type="number" id="precio" placeholder="Precio" required>
+            <input type="url" id="imagen" placeholder="URL de la imagen" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </section>
+
+    <!-- 🛒 Contenedor de productos -->
+    <div id="contenedor-productos"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
